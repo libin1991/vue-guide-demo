@@ -84,7 +84,7 @@ $ `npm run dev`                           //运行
 
 **2、编辑src/main.js**
 
-照着[vue-touch GitHub](https://github.com/vuejs/vue-touch/tree/next)和[vueg GitHub](https://github.com/jaweii/vueg)的文档做，在头部的import语句后跟上以下的代码：
+照着[vue-touch](https://github.com/vuejs/vue-touch/tree/next)和[vueg](https://github.com/jaweii/vueg)的文档做，在头部的import语句后跟上以下的代码：
 
     import VueTouch from 'vue-touch'
     import vueg from 'vueg'
@@ -237,6 +237,12 @@ guide(1|2|3|4).vue的内容：
 最后在index.html的head中添加不缩放的配置：
 
     <meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+
+
+到此，我们做了配置路由、编写组件和样式、给vueg做了简单的配置，使用了vue-touch的滑动事件指令，一个引导页就完成了。  
+
+![演示动态图][1]
+
 
 
 ----------
