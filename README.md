@@ -3,7 +3,7 @@
 > 使用 vue + vue-router + vueg + vue-touch 轻松实现app引导页的DEMO、教程，本例程也适用于轻松实现轮播图
 
 
-先来看看最终效果图：
+先来看看最终效果图([live demo](https://jaweii.github.io/vue-guide-demo/dist/#/guide))：  
 ![演示动态图][1]
 
 
