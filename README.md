@@ -1,4 +1,4 @@
-# vue-guide-demo
+# 轻松实现webApp的引导页功能(vue + vue-router + vueg + vue-touch)
 
 > 使用 vue + vue-router + vueg + vue-touch 轻松实现app引导页的DEMO、教程，本例程也适用于轻松实现轮播图
 
