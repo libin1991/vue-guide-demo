@@ -249,7 +249,7 @@ guide(1|2|3|4).vue的内容：
 
 
 插件地址：
-[vue-touch GitHub](https://github.com/vuejs/vue-touch/tree/next)
+[vue-touch GitHub](https://github.com/vuejs/vue-touch/tree/next)  
 [vueg GitHub](https://github.com/jaweii/vueg)
 
 
