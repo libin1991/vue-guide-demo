@@ -2,6 +2,15 @@
 
 > 使用 vue + vue-router + vueg + vue-touch 轻松实现app引导页的DEMO、教程，本例程也适用于轻松实现轮播图
 
+
+先来看看最终效果图：
+![演示动态图][1]
+
+
+
+一、下载模板和依赖项
+----
+
 $ `vue init webpack vue-guide-demo` //使用vue-cli下载webpack模板
 
 cli的提示中只安装vue-router就够了：
@@ -24,7 +33,7 @@ $ `npm run dev`                           //运行
 ----------
 
 
-下面开始编辑项目文件：
+二、开始编辑项目文件：
 -----------
 
 **1、编辑src/router/index.js**
@@ -230,5 +239,12 @@ guide(1|2|3|4).vue的内容：
     <meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
 
 
+----------
+
+
+插件地址：
 [vue-touch GitHub](https://github.com/vuejs/vue-touch/tree/next)
 [vueg GitHub](https://github.com/jaweii/vueg)
+
+
+  [1]: https://raw.githubusercontent.com/jaweii/vue-guide-demo/master/images/GIF.gif
