@@ -239,7 +239,7 @@ guide(1|2|3|4).vue的内容：
     <meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
 
 
-到此，我们做了配置路由、编写组件和样式、给vueg做了简单的配置，使用了vue-touch的滑动事件指令，一个引导页就完成了。  
+到此，我们做了配置路由、编写组件和样式、给vueg做了简单的配置，使用了vue-touch的滑动事件指令，一个引导页功能就完成了。  
 
 ![演示动态图][1]
 
@@ -248,7 +248,7 @@ guide(1|2|3|4).vue的内容：
 ----------
 
 
-插件地址：
+插件地址：  
 [vue-touch GitHub](https://github.com/vuejs/vue-touch/tree/next)  
 [vueg GitHub](https://github.com/jaweii/vueg)
 
