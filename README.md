@@ -31,10 +31,18 @@ $ `npm run dev`                           //运行
 
 为了方便管理，导航页采用嵌入路由的方式，即每一个导航页作为path:'/guide'的子路由，我们新建四个页面组件，添加到router中：
 
+    import Vue from 'vue'
+    import Router from 'vue-router'
+    import guide from '@/components/guide'
+    import guide1 from '@/components/guide1'
+    import guide2 from '@/components/guide2'
+    import guide3 from '@/components/guide3'
+    import guide4 from '@/components/guide4'
+    
+    Vue.use(Router)
+    
     export default new Router({
-        routes: [
-        	...
-        	,{
+        routes: [{
             path: '/guide',
             name: 'guide',
             component: guide,
@@ -60,7 +68,6 @@ $ `npm run dev`                           //运行
                 component: guide4
             }]
         }]
-        }]
     })
 
 那么app的引导页的URL就是http://localhost:8080/guide
@@ -68,7 +75,7 @@ $ `npm run dev`                           //运行
 
 **2、编辑src/main.js**
 
-照着vue-touch和vueg的文档做，在头部的import语句后跟上以下的代码：
+照着[vue-touch GitHub](https://github.com/vuejs/vue-touch/tree/next)和[vueg GitHub](https://github.com/jaweii/vueg)的文档做，在头部的import语句后跟上以下的代码：
 
     import VueTouch from 'vue-touch'
     import vueg from 'vueg'
@@ -104,7 +111,7 @@ $ `npm run dev`                           //运行
                 <li :class="{'nav-current':$route.name==='page4'}"></li>
             </ul>
         </div>
-</template>
+    </template>
     <script>
     export default {
         methods: {
@@ -222,3 +229,6 @@ guide(1|2|3|4).vue的内容：
 
     <meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
 
+
+[vue-touch GitHub](https://github.com/vuejs/vue-touch/tree/next)
+[vueg GitHub](https://github.com/jaweii/vueg)
